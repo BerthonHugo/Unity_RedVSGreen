@@ -16,18 +16,41 @@ Membres :
 - Toujours à l'aide du behavior tree, on a changé et ajouté un certain nombre de task afin de mieux détecter la mort des ennemis
 
 ### Stratégie 2
+ - une partie de la strégie 2 repose sur la sélection d'un ennemi commun pour toute l'armée et de lui tirer dessus. Apres la mort de l'ennemi, on peut changer de cible jusqu'a que tputes les armées ennemies soient mortes.
+
+
 
 - Prioriser les tourelles ennemies à l'aide des tourelles et des drones.
 Pour ce faire, nous lançons une salve des tourelles rouges contre une tourelle verte avant de changer de cible puis nous utilisons les drones pour achever les cibles endommagées.
 
+### Stratégie 3
+
+stratégie basé sur la mobilité des drones et sur leur capacité à tirer loing.
+
+- éviter les ennemi en restant loing d'eux et raycast pour détecter si il ya des obstacles en l'ennemi et le drone alié. Cette stratégie est seulement efficace pour les drone car les tourelle ne peuvent pas se déplacer.
+
+### Stratégie 4
+
+### Stratégie 5
+
+Dans cette stratégie, on a estimé que le behavior tree de base était
+
+
 
 ## Deep Learning
+
+- 
+- 
+- 
 
 
 
 # Développé
 
--La stratégie 1 n'a pas été implémentée à cause de la complexité inutile qu'elle apportait.
+- La stratégie 1 a été développé et testé, cependant, elle repose essentiellement sur le behavior tree et le taux d'échec est assez élevé.
+
+
+- La stratégie 2 n'a pas été implémentée à cause de la complexité inutile qu'elle apportait.
 La gestion d'un système de salve impliquait de créer un nouveau type d'état pour les tourelles et d'écouter un changement.
 
 
