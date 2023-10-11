@@ -70,4 +70,4 @@ Le nom de cette archive doit adopter la nomenclature suivante:
 **EPF_2023_2024_DecisionAI_UnityProject_<Nom1Nom2Nom3Nom4>.zip**
 
 # See more :
-[Release notes](blob/main/Ressources/ReleaseNotes.md)
+[Release notes](Ressources/ReleaseNotes.md)
