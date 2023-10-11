@@ -31,11 +31,13 @@ stratégie basé sur la mobilité des drones et sur leur capacité à tirer loin
 
 ### Stratégie 4
 
+Créer des esquades de drones et tourelles
+
 ### Stratégie 5
 
-Dans cette stratégie, on a estimé que le behavior tree de base était
+Dans cette stratégie, on a estimé que le behavior tree de base était suffisant. en effet. l'arbre permet de choisir une cible, se dirigier vers la cible en utilisant le navmesh de unity, de se positionner correctement avant de tirer.
 
-
+ces comportement permettent d'englober la totalité des actions possibles par les unités.
 
 ## Deep Learning
 
